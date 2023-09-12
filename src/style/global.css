@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100;0,200;1,100;1,200&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    outline: none;
+}
+.container{
+    padding: 0 120px;
+}
+
+.desktop-navbar ul{
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+.desktop-navbar a{
+    color: #242627;
+    line-height: 1.2em;
+    font-weight: 700;
+    font-size: 1rem;
+    font-family: Inter Tight,sans-serif;
+    transition: .5s;
+}
+.desktop-navbar a:hover{
+    color: #010ED0;
+}
+.logo{
+    cursor: pointer;
+}
+.btn{
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    background-color: #010ED0;
+    font-family: inter tight,Sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.2em;
+    transition: .3s;
+    padding: 14px 24px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #242627;
+}
+
+@media(max-width:1200px){
+    .container{
+        padding: 0 30px;
+    }
+}
+@media(max-width:1024px){
+    .desktop-navbar{
+        display: none;
+    }
+    .solution-title{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .cards{
+        justify-content: center;
+    }
+    .solution-card{
+        width: 45%;
+    }
+    .works-cards{
+        flex-wrap: wrap;
+    }
+    .works-card{
+        width: 100%;
+    }
+    footer .container{
+        justify-content: center;
+        text-align: center;
+        gap: 30px;
+    }
+}
+@media(max-width:768px){
+    .container{
+        padding: 0 10px;
+    }
+    .content{
+        display: none;
+    }
+    .logo img{
+        width: 120px;
+        height: 50px;
+        object-fit: contain;
+    }
+    .btn{
+        padding: 14px !important;
+    }
+    .solution-card{
+        width: 100%;
+        padding: 10px;
+    }
+    .solution-figure{
+        padding: 0;
+        padding-bottom: 10px;
+        padding: 25px 30px 14px 30px !important;
+    }
+    .card-title{
+        padding: 0 ;
+        padding-bottom: 10px;
+        
+    }
+    .card-link{
+        padding: 0;
+        padding-top: 10px;
+    }
+    .middle{
+        flex-wrap: wrap;
+        gap: 50px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .text p{
+        text-align: center !important;
+    }
+    .media {
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+    footer .container figure img{
+        width: 150px;
+    }
+}

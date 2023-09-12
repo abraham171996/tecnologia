@@ -1,0 +1,95 @@
+
+#solution{
+    width: 100%;
+   
+    background-color: #B1C7E7;
+    padding: 59px 0;
+}
+.solution-title{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: start;
+}
+.solution-title span{
+    padding: 7px 9px 6px;
+    border-radius: 4px;
+    background-color: #F5F5F5;
+    font-size: 10px;
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 1.7em;
+    text-transform: uppercase;
+    color: #5F6567;
+    font-family: "Inter Tight";
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 29px;
+   
+    align-items: center;
+}
+.solution-title h2{
+    line-height: 1.2em;
+    font-weight: 700;
+    font-size: 48px;
+    color: #0A0D31;
+    font-family: Inter Tight;
+}
+.solution-card{
+    background-color: #ffffff;
+    width: 31%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin-top: 36px;
+    border-radius: 4px;
+    /* padding: 35px 235px 14px  30px; */
+}
+.solution-card figure{
+    padding: 25px 235px 14px  30px;
+}
+.card-title{
+    padding: 0 50px 27px  30px;
+}
+.card-title h2{
+    padding-bottom: 28px;
+    color: #242627;
+    line-height: 1.3em;
+    font-weight: 600;
+    font-size: 24px;
+    font-family: Inter Tight;
+    cursor: pointer;
+    transition: .3s;
+}
+.card-title h2:hover{
+    color:#010ED0 ;
+}
+.card-title p{
+    color: #3f444b;
+    line-height: 1.4em;
+    font-weight: 600;
+    font-size: 14px;
+    font-family: Inter Tight;
+}
+.card-link{
+    padding: 25px 0 14px  30px;
+}
+.card-link a{
+    color: #010ED0;
+    line-height: 15.6px;
+    font-weight: 600;
+    font-size: 12px;
+    font-family: Inter Tight;
+    text-align: center;
+    transition: .3s;
+}
+.card-link a:hover{
+    color: #0A0D31;
+}
+.solution-btn{
+    margin-top: 39px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
